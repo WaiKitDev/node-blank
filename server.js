@@ -2,6 +2,8 @@ require('dotenv').config({ path: './w3s-dynamic-storage/.env' });
 const express = require('express');
 const path = require('path');
 
+console.log('Hello World!');
+
 // Constants
 const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || '0.0.0.0';
