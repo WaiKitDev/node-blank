@@ -3,6 +3,7 @@ const express = require('express');
 const path = require('path');
 
 console.log('Hello World!');
+console.log('heyo!');
 
 // Constants
 const PORT = process.env.PORT || 3000;
